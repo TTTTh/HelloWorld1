@@ -43,23 +43,6 @@ void Qsort(int * p, int left, int right){
 
 }
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    //freopen("/Users/tenghaibin/CodeData/input.txt","r",stdin);
-    //freopen("/Users/tenghaibin/CodeData/output.txt","w",stdout);
-    const char in_path[50] = "/Users/tenghaibin/CodeData/input.txt";
-    FILE *fp ;
-    fp = fopen(in_path, "r");
-    int n;
-    int num[top];
-    char c;
-    while(fscanf(fp,"%d",&n)!=EOF){
-        for (int i=0; i<n; i++) {
-            fscanf(fp,"%d%c",num + i,&c);
-        }
-        if (n<1000) {
-            show_num(num, n);
-        }
-
-    }
+    printf("Hello World!\n");
     return 0;
 }
